@@ -22,7 +22,7 @@ GROUP BY
     sd.skills
 ORDER BY 
     demand_count DESC
-LIMIT 10;
+LIMIT 15;
 
 /*
 Here's a breakdown of the most demanded skills for data engineers:
@@ -36,6 +36,7 @@ Key takeaways:
 - Big data tools like Spark continue to be highly valued
 - Data pipeline tools (Airflow, Snowflake, Databricks) show growing demand 
 - Java and GCP round the top 10 most requested skills
+
 
 ┌────────────┬──────────────┐
 │   skills   │ demand_count │
