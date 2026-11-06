@@ -26,7 +26,7 @@ HAVING
     COUNT(sjd.job_id) >= 100
 ORDER BY
     optimal_score DESC
-LIMIT 25;
+LIMIT 20;
 
 
 /*
